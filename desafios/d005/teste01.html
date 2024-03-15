@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 01 - CSS</title>
+    <style>
+        *{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            display: inline-flex;
+            min-height: 100vh;
+            background: linear-gradient(to right, purple, black);
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+        }
+
+        div{
+            height: 175px;
+            width: 120px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        div:hover{
+            transform: scale(1.1);
+            transition: .6s;
+            background-color: rgb(6, 29, 21);
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
