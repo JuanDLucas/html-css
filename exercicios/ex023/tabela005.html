@@ -19,10 +19,24 @@
             padding: 8px;
             text-align: center;
         }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        col.cgrupo {
+            background-color: red;
+        }
     </style>
 </head>
 <body>
+    <h1>Exercício de Tabela</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastros</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -31,10 +45,40 @@
             <th scope="col">Profissão</th>
         </tr>
         <tr>
+            <td>Adriana dos Santos</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Interprete de Libras</td>
+        </tr>
+        <tr>
             <td>Anna Maria</td>
             <td>F</td>
             <td>25</td>
             <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Juan D'Lucas</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Game Dev</td>
+        </tr>
+        <tr>
+            <td>Vitor Hugo</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Cláudia</td>
+            <td>F</td>
+            <td>40</td>
+            <td>Gerente</td>
+        </tr>
+        <tr>
+            <td>Denilson</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Segurança do Trabalho</td>
         </tr>
     </table>
     
