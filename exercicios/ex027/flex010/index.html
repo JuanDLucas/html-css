@@ -9,26 +9,22 @@
             background-color: lightsalmon;
 
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
         }
 
         div.itens {
             background-color: aquamarine;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 150px;
+            flex: 0 1 200px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="itens">Quando surge o Alviverde Imponente</div>
-        <div class="itens">B</div>
-        <div class="itens">Conteúdo</div>
-        <div class="itens">D</div>
-        <div class="itens">Conteúdo maior</div>
-        <div class="itens">Flexbox</div>
-        <div class="itens">G</div>
+        <div class="itens" id="a">A</div>
+        <div class="itens" id="b">B</div>
+        <div class="itens" id="c">C</div>
     </div>
 </body>
 </html>
