@@ -16,26 +16,58 @@ body {
 
 header {
     color: white;
-    background-color: rgba(105, 105, 105, 0.788);
+    background-color: rgba(104, 104, 104, 0.651);
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
+    flex: 0 0 200px;
+    text-shadow:  3px 2px 2px rgba(105, 105, 105, 0.719);
 }
 
 nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
-nav a {
+header nav a {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding: 10px;
+    margin: 3px;
     text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: white;
+    color: rgb(66, 66, 66);
+    transition: .4s;
 }
 
 main {
     background-color: white;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 20px;
     box-shadow: 3px 2px 3px rgba(105, 105, 105, 0.411);
+}
+
+main h2 {
+    padding: 3px 0px 15px 0px;
+}
+
+@media screen and (min-width: 998px) {
+    main{
+        width: 60vw;
+    }
 }
