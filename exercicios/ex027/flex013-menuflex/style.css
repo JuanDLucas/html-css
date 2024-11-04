@@ -65,9 +65,3 @@ main {
 main h2 {
     padding: 3px 0px 15px 0px;
 }
-
-@media screen and (min-width: 998px) {
-    main{
-        width: 60vw;
-    }
-}
