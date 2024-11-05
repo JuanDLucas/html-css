@@ -23,6 +23,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+
 }
 
 h1 {
@@ -34,7 +35,7 @@ h1 {
 nav {
     /*border: 1px dotted black;*/
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-end;
 }
 
@@ -65,3 +66,4 @@ main {
 main h2 {
     padding: 3px 0px 15px 0px;
 }
+

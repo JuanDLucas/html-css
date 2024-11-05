@@ -2,15 +2,15 @@
 
 @media screen and (max-width: 600px) {
     header, header nav {
-        flex-flow: column nowrap;
-    }
-
-    header h1 {
-        flex-basis: 50px;
+        flex-flow: column;
     }
 
     header nav a {
-        width: 90vw;;
+        width: 90vw;
+    }
+
+    h1 {
+        flex-basis: 50px;
     }
 }
 
