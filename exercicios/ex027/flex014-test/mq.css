@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 550px) {
+
+    header, div.menu{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    div.menu {
+        justify-content: flex-end;
+    }
+
+    i#burger {
+        display: none;
+    }
+
+    div.item {
+        width: 90px;
+    }
+}
